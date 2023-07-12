@@ -49,7 +49,7 @@ topic_pub = 'led_status'
 
 # Användarnamn och lösenord för MQTT-autentisering (om det behövs)
 username = 'anton'
-password = 'Lv98rsk7'
+password = '<enterpassword>'
 
 # Skapa en MQTT-klient och anslut till servern
 client = MQTTClient(client_id, mqtt_server, user=username, password=password)
